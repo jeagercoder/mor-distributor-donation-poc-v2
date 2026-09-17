@@ -1,0 +1,10 @@
+[profile.default]
+src = "test"
+test = "test"
+libs = ["lib"]
+[fuzz]
+runs = 40
+[invariant]
+runs = 40
+depth = 20
+fail_on_revert = false
